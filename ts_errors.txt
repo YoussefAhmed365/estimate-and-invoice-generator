@@ -1,0 +1,8 @@
+app/quote/update-estimate/page.tsx(82,27): error TS2345: Argument of type 'String' is not assignable to parameter of type 'SetStateAction<string>'.
+app/quote/update-estimate/page.tsx(83,28): error TS2345: Argument of type 'String' is not assignable to parameter of type 'SetStateAction<string>'.
+app/quote/update-estimate/page.tsx(84,32): error TS2339: Property 'issueDate' does not exist on type 'IQuote & Required<{ _id: ObjectId; }> & { __v: number; }'.
+app/quote/update-estimate/page.tsx(85,33): error TS2339: Property 'validUntil' does not exist on type 'IQuote & Required<{ _id: ObjectId; }> & { __v: number; }'.
+app/quote/update-estimate/page.tsx(86,22): error TS2345: Argument of type '[{ taskDescription: String; hours: number; ratePerHour: number; total: number; }]' is not assignable to parameter of type 'SetStateAction<TaskData[]>'.
+  Type '[{ taskDescription: String; hours: number; ratePerHour: number; total: number; }]' is not assignable to type 'TaskData[]'.
+    Type '{ taskDescription: String; hours: number; ratePerHour: number; total: number; }' is missing the following properties from type 'TaskData': id, name, description, rate
+app/quote/update-estimate/page.tsx(88,31): error TS2339: Property 'discount' does not exist on type 'IQuote & Required<{ _id: ObjectId; }> & { __v: number; }'.
